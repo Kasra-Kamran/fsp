@@ -15,8 +15,7 @@ set(SOURCE
     src/bsp/mcu/all/bsp_sdram.c
     src/bsp/mcu/all/bsp_security.c
     src/bsp/mcu/ra4m1/bsp_linker.c
-    src/r_ioport/r_ioport.c
-    src/r_iic_master/r_iic_master.c)
+    src/r_ioport/r_ioport.c)
 
 add_library(fsp ${SOURCE})
 
