@@ -16,8 +16,6 @@ set(SOURCE
     src/bsp/mcu/all/bsp_security.c
     src/bsp/mcu/ra4m1/bsp_linker.c
     src/r_ioport/r_ioport.c
-    src/r_iic_master/r_iic_master.c
-    src/r_gpt/r_gpt.c
     src/r_usb_pcdc/src/r_usb_pcdc_driver.c)
 
 file(GLOB_RECURSE USB_SRCS
